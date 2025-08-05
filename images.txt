@@ -1,8 +1,18 @@
 openjdk
 mysql:5.6
-mysql
 
+# 常用镜像
+mysql
+redis
+rabbitmq
+elasticsearch
+minio
 nginx
+mongo
+nacos
+seata-server
+xxl-job
+
 #支持私库
 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 xhofe/alist:latest
